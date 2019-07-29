@@ -1,0 +1,1 @@
+const hw = "Hello, world";
