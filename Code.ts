@@ -2,10 +2,10 @@ import { Script } from "vm";
 import { totalmem } from "os";
 
 const url : string = 'https://ws-tcg.com/todays-card/';
-const messageEndpoint : string = "https://hooks.slack.com/services/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";
-const TOKEN : string = "xoxb-481489691879-481867094678-75Y7QLcRzeyQcfdYDMxunN4Z";
-const postChannel : string = "CE65ECQ86";
-const imageEndpoint : string = "https://slack.com/api/files.upload";
+const messageEndpoint : string = "メッセージ送る際のエンドポイント";
+const TOKEN : string = "Slack API使う際のトークン";
+const postChannel : string = "画像を送るチャンネル";
+const imageEndpoint : string = "画像を送る際のエンドポイント";
 function main() : void {
     deleteTrigger("main");
     if(isHoliday()) {
